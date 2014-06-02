@@ -1,0 +1,13 @@
+{
+        "require": {
+            "php": ">=5.3.1",
+            "davedevelopment/phpmig": "*",
+            "pimple/pimple": "1.*",
+            "illuminate/database": "4.2.1"
+        },
+
+        "autoload" : {
+            "classmap" : ["app/"],
+            "files" : ["app/helpers.php"]
+        }
+}

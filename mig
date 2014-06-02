@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+if(!file_exists("vendor/autoload.php"))
+	die('Run `php composer.phar install`' . PHP_EOL);
+
+require_once "vendor/autoload.php";
+
+$app = new Phpmig\Console\PhpmigApplication();
+$app->run();
